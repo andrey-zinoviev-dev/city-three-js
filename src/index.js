@@ -16,7 +16,7 @@ const scene = new THREE.Scene();
 const city = new THREE.Object3D();
 const trafficGroup = new THREE.Group();
 const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.01 , 1000 );
-camera.position.set(3, 10, 20);
+camera.position.set(3, 10, 65);
 
 const renderer = new THREE.WebGLRenderer({
     antialias: true,
